@@ -13,7 +13,7 @@ Musix is a modern web-based music player that lets you play and manage your favo
 
 1. **Visit the GitHub Pages Link**: The Musix player is hosted on GitHub Pages. You can access it by navigating to the following URL:
 
-   [Musix Player on GitHub Pages](https://Noahscratch493.github.io/Musix-player)
+   [Musix Player on GitHub Pages](https://Noahscratch493.github.io/musix-player)
 
 2. **Listen to Music**: Once you're on the Musix player page, you can view the available tracks, click on them to see details, and listen to them online.
 
