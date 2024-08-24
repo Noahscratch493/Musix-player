@@ -1,0 +1,106 @@
+/* Base Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #1e90ff; /* Blue Main Color */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem; /* Larger font size for header */
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #fff;
+    color: #1e90ff;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-left: 1rem; /* Space between title and button */
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+button:focus {
+    outline: 2px solid #1e90ff;
+}
+
+.music-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.music-item {
+    text-align: center;
+}
+
+.music-image {
+    width: auto; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 360px; /* Limit width to 360px for SkyHigh */
+    max-height: 360px; /* Limit height to 360px for SkyHigh */
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.music-item a {
+    text-decoration: none;
+    color: #333;
+}
+
+.music-image:hover {
+    transform: scale(1.05);
+}
+
+.music-item p {
+    margin: 0.5rem 0 0;
+}
+
+/* Music Page Styles */
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+main h2 {
+    margin: 0;
+    font-size: 2rem; /* Adjust size for song title */
+    padding-bottom: 1rem; /* Space below the heading */
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+header.dark-mode {
+    background-color: #333;
+}
+
+button.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
